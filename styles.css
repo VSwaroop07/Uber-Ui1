@@ -10,8 +10,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f9fa;
+  background-color: black;
+  color: white;
   height: 50px;
+}
+header .logo a{
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
@@ -21,13 +26,33 @@ header {
 
 .top-menu {
   display: flex;
+  align-items: center;
+}
+
+.top-menu-item:hover{
+  color: white;
 }
 
 .top-menu-item {
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   color: #555;
+}
+
+.Login{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Login a{
+  text-decoration: none;
+  color: black;
 }
 
 .page-body {
@@ -162,13 +187,14 @@ h3 {
   background-color: black;
     color: white;
     font-family: "Mula", sans-serif;
-}
-
-.box{
-  margin: 75px;
-}
-
-.section1 a{
+  }
+  
+  .box{
+    margin: 75px;
+  }
+  
+  .section1 a{
+  cursor: pointer;
   text-decoration: none;
   color: white;
 }
@@ -215,9 +241,11 @@ div.section3{
   display: flex;
   justify-content: space-between;
   padding-right: 20%;
+  
 }
 
 h3, p{
   margin: 20px 0px;
+
 }
 
